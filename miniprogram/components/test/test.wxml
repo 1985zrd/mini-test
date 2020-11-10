@@ -1,0 +1,4 @@
+<!--components/test/test.wxml-->
+<view wx:if="{{show}}" class="test-module {{dis ? 'dis' : ''}}">
+  test
+</view>

@@ -1,0 +1,7 @@
+.idea/
+.git/
+.tea/
+typings/
+node_modules
+jsconfig.json
+*/.DS_Store

@@ -1,0 +1,17 @@
+<!--miniprogram/pages/webworker/webworker.wxml-->
+<view>
+<view wx:for="{{list}}" wx:key="unique">
+  {{item}}
+</view>
+</view>
+<!-- <web-view src="https://newuat-oauth2.health.ikang.com/oauth2/authorize?response_type=token&client_id=425dbb9d-9bf0-4032-964c-50557384a197&state=xyz&type_3rd=qq&channel_id=mall&channel_name=null%20&redirect_uri=http%3A%2F%2Fuat.vmall.ikang.com%2Fauth%3Fredirect%3Dhttp%3A%2F%2Fuat.vmall.ikang.com%2F%26channel_name%3Dnull&topic=traceless_m_login"></web-view> -->
+<base></base>
+<button bindtap="subscribeMessage">订阅消息</button>
+<button bindtap="sendMessage">发送消息</button>
+<button bindtap="open">打开配置</button>
+<view bindtap="toIndex">获取权限跳转</view>
+<button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">获取手机号</button>
+<button open-type="feedback" >反馈</button>
+<!-- <i-modal visible="{{ visible }}" bind:ok="handleOk" bind:cancel="handleClose">
+  <view>这是一个无标题的对话框</view>
+</i-modal> -->

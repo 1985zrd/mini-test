@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "base": "/components/base/base",
+    "i-modal": "/dist/modal/index"
+  }
+}
