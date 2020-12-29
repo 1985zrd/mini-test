@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/flow/flow",
     "pages/webworker/webworker",
     "pages/index/index",
     "pages/map/map",

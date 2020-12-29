@@ -1,0 +1,5 @@
+<!--pages/flow/flow.wxml-->
+<view class="wrap">
+    <view wx:for="{{list}}" class="{{'item item-'+index}}">{{item}}</view>
+</view>
+
